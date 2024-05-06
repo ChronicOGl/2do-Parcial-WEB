@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0a122a;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.nav_items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav_items li {
+  display: inline-block;
+}
+
+.nav_items li:last-child {
+  margin-right: 0;
+}
+
+.nav_items li a {
+  color: #d0ccd0;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav_items li a:hover {
+  background-color: #132250;
+  color: #90ee90;
+}
+
+.custom-carousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.footer{
+  background-color: #d0ccd0;
+  color: #0a122a;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.TextoFooter {
+  text-align: center !important;
+}
+
+.ContenedorTitulo {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+.Banner {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p {
+  text-align: justify;
+  color: #0a122a;
+}
+
+h1{
+  font-size: 28px;
+  color: #132250;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  padding-bottom: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.video {
+  width: 100%; 
+  max-width: 800px;
+}
+
+
+@media (max-width: 767px) {
+  .Banner {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .nav_items li a {
+    color: #d0ccd0;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+}
